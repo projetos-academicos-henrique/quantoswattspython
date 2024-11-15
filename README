@@ -1,7 +1,31 @@
-# Calculadora de utilizacao semanal de watts
+### 📝 README - Calculadora de Consumo "Quantos Watts?" ⚡
 
-o usuario insere um dispositivo, quantos watts ele usa, por quanto tempo ele usa e quantas vezes na semana
+**👥 Membros do Grupo**:
+- Nome do Aluno 1 - RM: 12345
+- Nome do Aluno 2 - RM: 67890
 
-o sitema retorna quanto ele gasta por semana e por mes
+### 📜 Descrição do Projeto
+A calculadora **"Quantos Watts?"** ajuda a estimar o consumo semanal e mensal de aparelhos eletrônicos, permitindo a escolha de dispositivos e inserção do tempo de uso. 🏠💡
 
-gerar um arquivo é bom
+### 🚀 Funcionalidades
+- **📋 Cadastro de Dispositivos**: Selecione e adicione aparelhos.
+- **📊 Cálculo de Consumo**: Receba estimativas semanais e mensais.
+- **💾 Histórico**: Gera um relatório em `.txt` para consulta.
+
+### 💻 Como Executar
+1. Clone o repositório:
+   ```
+   git clone <link-do-repo>
+   ```
+2. Execute o programa:
+   ```
+   python main.py
+   ```
+
+### 📝 Exemplo de Uso
+Escolha a opção de cálculo:
+```
+1 - Calculo semanal de consumo
+2 - Sair
+```
+Adicione aparelhos e veja o consumo semanal estimado! 📈🔋
