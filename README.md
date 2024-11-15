@@ -1,8 +1,8 @@
 ### 📝 README - Calculadora de Consumo "Quantos Watts?" ⚡
 
 **👥 Membros do Grupo**:
-- Nome do Aluno 1 - RM: 12345
-- Nome do Aluno 2 - RM: 67890
+- Andrey Rodrigues Nagata - RM: 555339
+- Henrique Soubhia - RM: 554493
 
 ### 📜 Descrição do Projeto
 A calculadora **"Quantos Watts?"** ajuda a estimar o consumo semanal e mensal de aparelhos eletrônicos, permitindo a escolha de dispositivos e inserção do tempo de uso. 🏠💡
