@@ -6,11 +6,11 @@ def verify_number(number, limit):
     if number > limit:
         raise ValueError()
     
-def secutiry_input(message):
+def security_input(message, limit):
     while True:
         try:
             input_device = float(input(message))
-            verify_number(input_device, len(devices_list) + 1)
+            verify_number(input_device, limit)
             return input_device
         except ValueError:
             print("Digite um número válido")
@@ -44,7 +44,7 @@ def calculo_semanal():
         
         print(f"{len(devices_list) + 1} - Encerrar")
 
-        input_device = secutiry_input("Digite o número do aparelho que deseja adicionar: ")
+        input_device = security_input("Digite o número do aparelho que deseja adicionar: ", len(devices_list) + 1)
 
 
         if input_device == len(devices_list) + 1:    
@@ -57,8 +57,8 @@ def calculo_semanal():
         else:
             deviceItem = devices_list[int(input_device) - 1]
 
-            hours = secutiry_input("Quantas horas por dia você usa esse aparelho? ")
-            day = secutiry_input("Quantos dias por semana você usa esse aparelho? ")
+            hours = security_input("Quantas horas por dia você usa esse aparelho? ", 24)
+            day = security_input("Quantos dias por semana você usa esse aparelho? ", 7)
             
             weekly_consumption = deviceItem['wattsPerHour'] * hours * day
 

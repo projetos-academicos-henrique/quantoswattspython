@@ -1,0 +1,4 @@
+Historico de consumo
+name                |wattsPerHour        |hours               |days                |weekly_consumption  |monthly_consumption |
+Computador          |200                 |20.0                |7.0                 |28000.0             |112000.0            |
+Geladeira           |300                 |24.0                |7.0                 |50400.0             |201600.0            |
