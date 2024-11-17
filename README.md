@@ -15,7 +15,7 @@ A calculadora **"Quantos Watts?"** ajuda a estimar o consumo semanal e mensal de
 ### 💻 Como Executar
 1. Clone o repositório:
    ```
-   git clone <link-do-repo>
+   git clone https://github.com/projetos-academicos-henrique/quantoswattspython.git
    ```
 2. Execute o programa:
    ```
