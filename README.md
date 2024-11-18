@@ -20,11 +20,7 @@ Com essa ferramenta, buscamos incentivar práticas mais conscientes no uso de en
    ```bash
    git clone https://github.com/projetos-academicos-henrique/quantoswattspython.git
    ```
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Execute o programa:
+2. Execute o programa:
    ```bash
    python main.py
    ```
